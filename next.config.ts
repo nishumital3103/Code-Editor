@@ -12,7 +12,7 @@
 const nextConfig = {
   // Your configuration options
   reactStrictMode: true,
-  swcMinify: true,
+  // swcMinify: true,
   // Add other config properties here
 }
 
