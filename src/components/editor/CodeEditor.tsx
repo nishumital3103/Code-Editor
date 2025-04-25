@@ -26,7 +26,7 @@ export default function CodeEditor() {
         value={code}
         height="100%"
         extensions={[javascript()]}
-        onChange={(value) => setCode(value)}
+        onChange={(value:string) => setCode(value)}
         theme="dark"
         basicSetup={{
           lineNumbers: true,
